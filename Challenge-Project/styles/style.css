@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  background-color: rgb(233,215,207);
+  margin: 50px;
+}
+h1 {
+  font-family: "Roboto";
+  text-align: center;
+  color: rgb(54, 54, 54);
+}
+p {
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(83, 75, 75);
+}
+a {
+  color: rgb(238, 103, 103);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+
+#challenge {
+  font-size: 35px;
+  font-family: "Oswald";
+  color: rgb(104, 43, 5);
+  font-weight: bolder;
+}
