@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  text-align: center;
+  background-color: rgb(233, 215, 207);
+  font-family: sans-serif;
+}
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(15, 6, 6);
+  font-size: 48px;
+  margin: 20px 0;
+}
+#decs{
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(206, 83, 83);
+  margin: 0;
+}
+p{
+  font-size: 18px;
+  margin-top: 10px;
+  color: black;
+}
+a {
+  color: rgb(255, 255, 255);
+  background-color: rgb(182, 12, 69);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+a:hover {
+  cursor: pointer;
+  background-color: rgb(192, 6, 68);
+}
+ul{
+  width: 600px;
+  margin: 20px auto;
+}
+li{
+  list-style: none;
+  background-color: rgb(206, 83, 83);
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+li h2{
+  color: rgb(41, 19, 19);
+}
+
