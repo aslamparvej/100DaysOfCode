@@ -40,7 +40,7 @@ a:hover {
 }
 ul{
   width: 600px;
-  margin: 20px auto;
+  margin: 20px auto 35px auto;
 }
 li{
   list-style: none;
@@ -48,6 +48,7 @@ li{
   border-radius: 10px;
   margin: 20px 0;
   padding: 20px 0;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
 }
 li h2{
   color: rgb(41, 19, 19);
