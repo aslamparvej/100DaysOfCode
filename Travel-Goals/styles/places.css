@@ -1,0 +1,59 @@
+/* paragraph-color:  rgb(36, 36, 36);*/
+/* heading-color:  rgb(36, 36, 36);*/
+/* logo-color:  rgb(127, 182, 230)*/
+body {
+  background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+  color: rgb(36, 36, 36);
+}
+header {
+  position: sticky;
+  background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+}
+header ul li a {
+  color: rgb(127, 182, 230);
+}
+header ul li a:hover {
+  background-color: rgb(127, 182, 230);
+}
+#page-logo a {
+  color: rgb(127, 182, 230);
+}
+main ul {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main ul li:nth-of-type(3){
+  grid-column: 1 / span 2;
+}
+main ul li:nth-of-type(6){
+  grid-column: 1 / span 2;
+}
+main li {
+  display: flex;
+  border-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+  margin: 10px;
+}
+main li img {
+  width: 300px;
+  height: 280px;
+  object-fit: cover;
+}
+.item-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item-content p{
+  padding-top: 10px;
+}
+.actions {
+  text-align: right;
+}
+.actions a{
+ color: rgb(3, 82, 151);
+}
