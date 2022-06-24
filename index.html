@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- If you do not need style delete this part -->
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 60px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      header ul {
+        display: flex;
+      }
+      header ul li {
+        padding-left: 20px;
+      }
+      header ul li a {
+        color: rgb(255, 251, 0);
+        font-size: 18px;
+        padding: 8px;
+        border-radius: 4px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+      }
+      header ul li a:hover {
+        color: black;
+        background-color: rgb(255, 251, 0);
+      }
+      ul {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      #page-logo a {
+        font-size: 50px;
+        font-family: "Oleo Script", sans-serif;
+        color: rgb(233, 229, 32);
+        text-transform: uppercase;
+        text-shadow: 1px 1px 2px #000;
+      }
+      #hero {
+        height: 800px;
+        background-image: url("./sea.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+      #about-us {
+        text-align: center;
+      }
+      #about-us p {
+        padding: 20px 40px;
+      }
+    </style>
+    <!-- style end here -->
+    <title>A Basic Website</title>
+  </head>
+  <body>
+    <header>
+      <div id="page-logo">
+        <a href="#">Logo</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero"></section>
+      <section id="about-us">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
+          veritatis iusto soluta blanditiis provident quae non quam perspiciatis
+          at sed vitae enim voluptate libero, quibusdam ea dicta debitis
+          repellendus. Cupiditate iste et nulla labore molestiae minima odit
+          porro doloremque optio.
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum,
+          reprehenderit voluptates? Labore quo fugiat vitae vero! Vero rerum
+          placeat numquam reprehenderit eius molestiae. Praesentium consequuntur
+          libero illo fuga adipisci quod ut magnam veniam voluptatibus culpa
+          nobis, officia nemo eius suscipit!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore fugit
+          saepe reprehenderit! Consequuntur obcaecati odio voluptas corrupti
+          nostrum harum fugiat rerum eos sunt! Pariatur suscipit illo vel a vero
+          ducimus!
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
